@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local project/runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.pid
+*.tmp
+
+# Environment and secrets
+.env
+.env.*
+.secrets
+*.local
+
+# Local editor/tooling folders
+.agents/
+.claude/
